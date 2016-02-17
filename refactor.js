@@ -296,7 +296,11 @@ var accelerate = function(amount) {
 };
 
 // Put your answer below -------------------------
+//the variable speed is in global scope and  cannot be used within the function expression
 
+var accelerate = function(amount, speed) {
+  speed += amount;
+};
 
 // -----------------------------------------------
 
