@@ -219,6 +219,7 @@ var callNTimes = function(callback, Number) {
 
 // HINT: "global scope"
 
+ 
 var score = 0;
 
 var increaseScore = function() {
@@ -229,8 +230,23 @@ var decreaseScore = function() {
   score--;
 };
 
+
+
 // Put your answer below -------------------------
 
+(function () {
+ 
+var score = 0;
+
+var increaseScore = function() {
+  score++;
+};
+
+var decreaseScore = function() {
+  score--;
+};
+
+}) ()
 
 // -----------------------------------------------
 
