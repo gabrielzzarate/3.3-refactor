@@ -86,7 +86,7 @@ console.log("The letter is", letter);
 // Put your answer below -------------------------
 
     /* the answer is c because of the scope of the variables and the timing of the function.
-    ** the Javascript reader sets the function holding letter "y" to be logged at a later time, then reads the variable "z", logs it first, then goes back the the SetTimeout.
+    ** the Javascript reader sets the function holding letter "y" to be logged at a later time, then reads the variable "z", logs it first, then goes back the the SetTimeout. */
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -143,6 +143,21 @@ var spanishColor = function(colorName) {
 };
 
 // Put your answer below -------------------------
+
+function spanishColor (colorName) {
+  var colors = {
+    'rojo' : '#ff0000',
+    'blanco' : '#ffffff',
+    'azul' : '#0000ff',
+    'verde' : '#00ff00',
+    'negro' : '#000000',
+
+
+  }
+  return colors.toLowerCase();
+}
+
+console.assert( spanishColor('rojo') === '#ff0000' );
 
 
 // -----------------------------------------------
