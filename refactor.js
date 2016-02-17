@@ -147,14 +147,14 @@ var spanishColor = function(colorName) {
 function spanishColor (colorName) {
   var colors = {
     'rojo' : '#ff0000',
-    'blanco' : '#ffffff',
+    'blanco' :'#ffffff',
     'azul' : '#0000ff',
     'verde' : '#00ff00',
     'negro' : '#000000',
 
 
   }
-  return colors.toLowerCase();
+  return colors[colorName.toLowerCase()];
 }
 
 console.assert( spanishColor('rojo') === '#ff0000' );
