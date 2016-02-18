@@ -345,7 +345,7 @@ var callLater = function(timeout, callback) {
 // Put your answer below -------------------------
 
 var callLater = function(timeout, callback){
-  if (callback == 'undefined'){
+  if (typeof callback == 'undefined'){
     var duration = 1000;
     return setTimeout(timeout, duration);
   } else {
