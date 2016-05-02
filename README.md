@@ -1,1 +1,3 @@
-# 3.3-refactor
+# Refactor Practice
+
+Refactor 10 pieces of code in refactor.js. There is a description above each snippet of code explaining how it should be refactored. There is also a place for you to put your answer. Copy the file to your own repo and complete each question. I want at least one commit for each question. You may make multiple commits for each question but you may not make a single commit for more than one question. Do not edit any part of the document other than to add your code to the specified area. Any answers that require explanation need to be done so via comments so that this remains a valid javascript file when you turn yours in.
